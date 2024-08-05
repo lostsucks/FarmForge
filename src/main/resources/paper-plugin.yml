@@ -1,0 +1,4 @@
+name: FarmForge
+version: '1.0-SNAPSHOT'
+main: com.lostmatter.farmForge.FarmForge
+api-version: '1.21'
