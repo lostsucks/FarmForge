@@ -6,7 +6,7 @@ public final class FarmForge extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("hi");
+        getLogger().info("github test");
 
     }
 
