@@ -7,7 +7,7 @@ public final class FarmForge extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("github test");
+        getLogger().info("github test1");
 
         getServer().getPluginManager().registerEvents(new CropRegrow(), this);
     }
