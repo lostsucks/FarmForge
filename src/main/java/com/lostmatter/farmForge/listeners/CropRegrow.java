@@ -15,6 +15,7 @@ public class CropRegrow implements Listener {
             event.setCancelled(true);
 
             block.setType(Material.STONE);
+            event.getPlayer().playSound(block.getLocation(), "entity.villager.happy", 1, 1);
         }
     }
 
