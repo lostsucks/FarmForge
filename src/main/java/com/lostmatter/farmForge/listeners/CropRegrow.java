@@ -1,7 +1,5 @@
 package com.lostmatter.farmForge.listeners;
 
-import net.kyori.adventure.text.Component;
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
@@ -15,7 +13,8 @@ public class CropRegrow implements Listener {
         Block block = event.getBlock();
         if (block.getType() == Material.WHEAT) {
             event.setCancelled(true);
-            Bukkit.broadcast(Component.text("test"));
+
+            block.setType(Material.STONE);
         }
     }
 
