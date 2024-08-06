@@ -1,6 +1,5 @@
 package com.lostmatter.farmForge;
 
-import com.lostmatter.farmForge.commands.KysCommand;
 import com.lostmatter.farmForge.listeners.AsyncChat;
 import com.lostmatter.farmForge.listeners.CropRegrow;
 import org.bukkit.plugin.java.JavaPlugin;
